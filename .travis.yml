@@ -6,4 +6,4 @@ before_install:
 install: true
 script: 
   - python build.py
-  - pdftex resume.tex
+  - pdflatex resume.tex
