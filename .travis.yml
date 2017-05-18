@@ -4,4 +4,4 @@ before_install:
   - sudo apt-get update -qq
   - sudo apt-get install -qq texlive-latex-base
 install: true
-script: build.py
+script: python build.py
