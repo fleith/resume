@@ -3,7 +3,10 @@ python: "3.6"
 before_install:
   - sudo apt-get update -qq
   - sudo apt-get install -qq texlive-latex-base
-install: true
+install: "pip install dropbox"
 script: 
   - python build.py
   - pdflatex resume.tex
+deploy:
+  provider: script
+  script: python deploy.py
