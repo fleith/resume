@@ -8,5 +8,6 @@ script:
   - python build.py
   - pdflatex resume.tex
 deploy:
+  skip_cleanup: true
   provider: script
   script: python deploy.py
