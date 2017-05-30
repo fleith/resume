@@ -8,6 +8,6 @@ I'm passionate about technology and graduated in Computer Engineer. I have more 
 
 
 
-[Linkedin profile](www.linkedin.com/in/alvarofleith)
+[Linkedin profile](https://www.linkedin.com/in/alvarofleith)
 
 [Download my resume](https://www.dropbox.com/s/kijypd7rjyt5k25/resume.pdf?dl=1)
