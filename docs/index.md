@@ -4,7 +4,7 @@
 
 # Álvaro Fleith
 
-I'm passionate about technology and graduated in Computer Engineer. I have more than 10 years of experience on the software industry.
+I'm passionate about technology and graduated in Computer Engineer. I have more than 10 years of experience in the software industry.
 
 
 
