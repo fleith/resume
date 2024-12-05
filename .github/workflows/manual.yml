@@ -37,8 +37,8 @@ jobs:
 
     - name: Build project
       env:
-        DROPBOX_ACCESS_TOKEN: ${{ secrets.DROPBOX_ACCESS_TOKEN }}
-        TEST: ${{ TEST }}
+        DROPBOX_ACCESS_TOKEN: ${{ secrets.DROPBOX_ACCESS_TOKEN.DROPBOX_ACCESS_TOKEN }}
+        TEST: ${{ secrets.TEST }}
       run: |
         python build.py
         pdflatex resume.tex
