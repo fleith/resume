@@ -1,6 +1,6 @@
 name: Dropbox deploy workflow
 env:
-  test_var: ${{ abc.TEST_123 }}
+  test_var: ${{ env.TEST_123 }}
 
 on:
   push:
