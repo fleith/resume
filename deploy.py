@@ -6,9 +6,9 @@ import dropbox
 token = os.environ['DROPBOX_ACCESS_TOKEN']
 dbx = dropbox.Dropbox(token)
 
-#TODO: get file name from arguments or environment
-with open('resume.pdf', 'rb') as f:
+file_name = os.environ['PDF_FILE_NAME']
+with open(file_name, 'rb') as f:
     data = f.read()
-dbx.files_upload(data, '/resume.pdf', mode=dropbox.files.WriteMode('overwrite'))
+dbx.files_upload(data, '/{}'.format(file_name), mode=dropbox.files.WriteMode('overwrite'))
 
-print('nice deploy')
+print('PDF file {} uploaded to Dropbox'.format(file_name))
