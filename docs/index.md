@@ -1,6 +1,6 @@
 ![Build status](https://github.com/fleith/resume/actions/workflows/manual.yml/badge.svg?branch=master)
 
-![](https://www.gravatar.com/avatar/4fb2e12ddb7e91c7d8903c1148ff8b0c?s=200)
+![](https://gravatar.com/userimage/121355667/0306b1218cd4062e85200fd6d2e61a5f.jpeg?size=256)
 
 # Álvaro Francisco Fleith
 
@@ -9,4 +9,4 @@ Results-oriented Senior Software Engineer with extensive expertise in embedded s
 
 [Linkedin profile](https://www.linkedin.com/in/alvarofleith)
 
-[Download my resume](https://www.dropbox.com/s/kijypd7rjyt5k25/resume.pdf?dl=1)
+[Download my resume](https://www.dropbox.com/scl/fi/bs72b8bwhzzdhl0hwecla/resume.pdf?rlkey=91iglicsmkzo5nnrns2ugqfgt&st=5usz0g7b&dl=0)
