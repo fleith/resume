@@ -26,12 +26,11 @@ jobs:
       run: pip install dropbox
 
     - name: Build project
+      env:
+        DROPBOX_ACCESS_TOKEN: ${{ vars.MY_VAR }}
       run: |
         python build.py
         pdflatex resume.tex
         echo "Hello World!"
-        echo "var=$test_var"
-        echo "env=$test_env"
-        echo ${{env.MY_ENV}}
-        echo ${{vars.MY_VAR}}
+        echo "env=$DROPBOX_ACCESS_TOKEN"
         python deploy.py
