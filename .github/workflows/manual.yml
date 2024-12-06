@@ -1,8 +1,4 @@
 name: Dropbox deploy workflow
-env:
-  test_env: ${{env.MY_ENV}}
-  test_var: ${{vars.MY_VAR}}
-
 on:
   push:
     branches:
@@ -36,4 +32,6 @@ jobs:
         echo "Hello World!"
         echo "var=$test_var"
         echo "env=$test_env"
+        echo ${{env.MY_ENV}}
+        echo ${{vars.MY_VAR}}
         python deploy.py
