@@ -1,6 +1,7 @@
 name: Dropbox deploy workflow
 env:
-  test_var: ${{env.TEST_123}}
+  test_env: ${{env.MY_ENV}}
+  test_var: ${{vars.MY_VAR}}
 
 on:
   push:
@@ -34,4 +35,5 @@ jobs:
         pdflatex resume.tex
         echo "Hello World!"
         echo "var=$test_var"
+        echo "env=$test_env"
         python deploy.py
