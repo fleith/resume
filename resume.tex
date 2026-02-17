@@ -3,87 +3,85 @@
 
 \AtEndDocument{\hfill \LaTeX}
 
+% ---- spacing tweaks (safe, no res.cls edits) ----
+\setlength{\textheight}{10.0in}
+\setlength{\topmargin}{-0.5in}
+
+% res.cls uses \parskip=\baselineskip by default; this makes it compact
+\setlength{\parskip}{0pt}
+
+% tighten space before section headings (res.cls defines \sectionskip)
+\addtolength{\sectionskip}{-1.5ex}
+
+% tighten list spacing
+\setlength{\itemsep}{-3pt}
+\setlength{\parsep}{0pt}
+\setlength{\topsep}{0pt}
+\setlength{\partopsep}{0pt}
+% -----------------------------------------------
+
 \begin{document}
 
 \name{Alvaro Francisco Fleith}
 \address{alvarofleith@gmail.com}
 
-
 \begin{resume}
 
-\section{Summary}       Results-oriented Software Engineer with extensive experience in embedded systems, C++, Python, and Rust. Skilled in designing scalable, high-performance applications and leading complex projects across diverse platforms. Adept at collaborating with stakeholders, mentoring teams, and driving innovation through modern development practices. Passionate about solving challenging problems and optimizing workflows.
+\section{Summary}
+Senior Software Engineer with 15+ years of experience in embedded systems, distributed systems, and networking infrastructure. Strong background in C++, Rust, Python, and AWS, building scalable, high-performance services across large device fleets and cloud platforms. Experienced in technical leadership, cross-team architecture, and mentoring.
 
+\section{Experience}
 
- \section{Experience} 
-
-
- {\sl Software Development Engineer, Amazon Fulfillment Technologies \& Robotics} \hfill Jul 2025 -- Present \\
-\begin{itemize} \itemsep -2pt
-\item Develop and operate critical network infrastructure services (DHCP, DNS, NTP, TACACS+, RADIUS, VPN) supporting large-scale fulfillment centers and robotic fleets.
-\item Design highly available and scalable solutions using AWS to provision and manage network identity and connectivity across thousands of devices.
-\item Improve reliability, observability, and automation of tier-1 services used by warehouse automation and robotics systems.
+{\sl Software Development Engineer, Amazon Fulfillment Technologies \& Robotics} \hfill Jul 2025 -- Present \\
+\begin{itemize} \itemsep -3pt
+\item Build and operate critical network infrastructure services (DHCP, DNS, NTP, TACACS+, RADIUS, VPN) for fulfillment centers and robotic fleets.
+\item Design highly available AWS solutions provisioning identity and connectivity across thousands of devices.
+\item Improve reliability, observability, and automation of tier-1 warehouse automation services.
 \end{itemize}
 
-
-{\sl Software Development Engineer, Amazon} \hfill Nov 2021 to Jul 2025 \\
-                 \begin{itemize}  \itemsep -2pt
-                 \item As a Software Development Engineer at Amazon Devices, I work on the Fire TV platform, focusing on embedded systems and Mobile Android applications.
-		 \item Utilize Rust, Java, and C/C++ to develop high-performance applications, designing, implementing, and optimizing software solutions to enhance the functionality and performance of Fire TV products.               
-		 \item Lead complex projects, coordinating efforts across cross-functional teams to deliver innovative features and improvements to Fire TV products.
-                 \item Conduct interviews for technical candidates, mentoring team members, and driving initiatives to foster team growth and technical excellence.
-                 \item Deliver presentations to the team, sharing knowledge on best practices, project updates, and technical solutions to ensure alignment and continuous learning.
-                \end{itemize}
-
-
-{\sl Software Development Engineer, Amazon} \hfill Oct 2019 to Nov 2021 \\
-                 \begin{itemize}  \itemsep -2pt
-                 \item As a Software Development Engineer, develops, designs, and implements software features for the AWS Support organization.
-                 \item Led a project to migrate Support APIs to a new downstream system, enabling multi-region support and significantly improving the resilience and reliability of the service.
-                 \item Interviews candidates as well as mentors colleagues and interns.
-                 \item Provides technical leadership for the team, interacts with stakeholders and supports the product from an
-operational perspective.
-                 \item Designs and develops large-scale, multi-tiered, multi-threaded distributed software applications, tools, systems,
-and services using Java, Python and Object Oriented Design.
-                \end{itemize}
-                
-                {\sl Software Developer, Autodesk} \hfill Nov 2017 to Sep 2019 \\
-                 \begin{itemize}  \itemsep -2pt
-                 \item Enhanced the Maya project by developing new features and optimizing performance for 3D design and animation tools, working extensively with MEL, Python, and C/C++ languages.
-		 \item Improved the stability of the playback feature by reducing the refresh frame rate error from 20ms to less than 1ms. This enhancement minimized reliance on time-consuming playblasts, which previously took minutes, significantly accelerating customer workflows.
-                 \item Conducted research on LLVM UBSan to detect hidden bugs in the Maya project, presenting findings to the team and implementing fixes that increased application stability and reliability.
-                 \item Contributed to the development of the LookdevX plugin in partnership with the open-source MaterialX library, created by Lucasfilm, enabling advanced look development workflows and enhanced interoperability with industry-standard tools.
-                \end{itemize}
-
-                {\sl Software Developer, KHOMP} \hfill Mar 2016 to Nov 2017 \\
-                 \begin{itemize}  \itemsep -2pt
-                 \item Led the development and enhancement of the Session Border Controller (SBC) project, collaborating with partners to support their migration to Khomp's solution, working extensively with C/C++, JavaScript, and PHP.
-                 \item Added advanced functionality to the SBC for session-oriented IP services using the SIP protocol, improving system reliability and scalability for telephony applications.
-                 \item Developed and implemented new features for the Khomp Media Gateway, delivering solutions tailored to call centers and carriers.
-                 \item Conducted extensive testing using SIPP and Docker, ensuring robust performance and compatibility for telephony systems.
-                 \item Collaborated with cross-functional teams to optimize network protocols, streamline development workflows with GitLab, and integrate features seamlessly across Linux-based systems.
-                 \item Actively engaged in knowledge sharing and mentoring, fostering a culture of collaboration and continuous learning.
-                \end{itemize}
-
-                {\sl Co Founder, Festa Ninja} \hfill Oct 2014 to Dec 2016 \\
-                 \begin{itemize}  \itemsep -2pt
-                 \item Co-founded an event planning platform, building a robust MVP with Python, Django, and JavaScript.               
-                 \item Managed cloud deployments on AWS and Heroku, improving scalability and uptime.
-                 \item Applied Lean Startup methodologies to iterate features and enhance user engagement.
-
+{\sl Software Development Engineer, Amazon Devices} \hfill Nov 2021 -- Jul 2025 \\
+\begin{itemize} \itemsep -3pt
+\item Developed embedded systems and mobile Android applications for the Fire TV platform using Rust, Java, and C/C++.
+\item Led cross-functional projects delivering performance and functionality improvements to Fire TV products.
+\item Mentored engineers, conducted technical interviews, and delivered knowledge-sharing presentations.
 \end{itemize}
 
-                {\sl Software Developer, Audaces} \hfill Mar 2015 to Fev 2016 \\
-                  \begin{itemize}
-                    \item Led the development of a hybrid solution for data interchange, reducing customer bugs by 90\% through improved testing practices.
-                    \item Migrated an embedded system to a multi-platform architecture, collaborating with hardware partners and managing deliverables.
-                   \end{itemize}
-
-                {\sl Software Developer, Audaces} \hfill Oct 2006 to Oct 2014 \\
-                  \begin{itemize}
-                   \item Designed and maintained CAD/CAM software for the fashion industry, modernizing legacy code with TDD and CI practices.
-\item Delivered high-performance applications in C++ while adding features under tight deadlines, leveraging frameworks like Qt and CMake.              
+{\sl Software Development Engineer, Amazon AWS Support} \hfill Oct 2019 -- Nov 2021 \\
+\begin{itemize} \itemsep -3pt
+\item Led migration of Support APIs to a multi-region architecture, improving service resilience and reliability.
+\item Designed and built large-scale, multi-threaded distributed systems in Java and Python; provided technical leadership and operational support.
 \end{itemize}
-\section{Education} {\sl Bachelor of Computer Engineering} \hfill Dec 2009\\
-                UNIVALI, Sao Jose, Brazil
+
+{\sl Software Developer, Autodesk} \hfill Nov 2017 -- Sep 2019 \\
+\begin{itemize} \itemsep -3pt
+\item Improved Maya playback stability, reducing frame rate error from 20ms to $<$1ms and accelerating customer workflows.
+\item Conducted LLVM UBSan research to detect hidden bugs, presenting findings and implementing fixes.
+\item Contributed to the LookdevX plugin in partnership with Lucasfilm's open-source MaterialX library.
+\end{itemize}
+
+{\sl Software Developer, KHOMP} \hfill Mar 2016 -- Nov 2017 \\
+\begin{itemize} \itemsep -3pt
+\item Led development of Session Border Controller and SIP telephony features in C/C++.
+\item Improved reliability and scalability of carrier and call-center infrastructure using SIPP and Docker testing.
+\end{itemize}
+
+{\sl Co-Founder, Festa Ninja} \hfill Oct 2014 -- Dec 2016 \\
+\begin{itemize} \itemsep -3pt
+\item Built MVP and managed AWS/Heroku deployments using Python, Django, and JavaScript.
+\end{itemize}
+
+{\sl Software Developer, Audaces} \hfill 2006 -- 2016 \\
+\begin{itemize} \itemsep -3pt
+\item Designed and maintained CAD/CAM software in C++ with Qt and CMake; modernized legacy code with TDD and CI.
+\item Led hybrid data-interchange solution and multi-platform embedded migration, reducing customer bugs by 90\%.
+\end{itemize}
+
+% If Education still spills to page 2, uncomment the next line:
+% \enlargethispage{2\baselineskip}
+
+\section{Education}
+{\sl Bachelor of Computer Engineering} \hfill Dec 2009\\
+UNIVALI, Sao Jose, Brazil
+
 \end{resume}
 \end{document}
