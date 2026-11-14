@@ -8,9 +8,8 @@ This repository contains my resume, crafted in **LaTeX** for professional qualit
 
 ## Features
 
-- **Automated PDF Generation**: Any changes to the repository automatically trigger a build process to generate a PDF version of the resume.
-- **Dropbox Integration**: The generated PDF is uploaded to Dropbox for easy access and sharing.
-- **GitHub Pages Deployment**: A parallel build process updates the [GitHub Pages](https://fleith.github.io/resume/) deployment, providing a web-friendly version of the resume.
+- On pushes to `master`, GitHub Actions compiles `resume.tex` with `pdflatex` and uploads the PDF to Dropbox.
+- GitHub Pages serves the professional profile from `docs/index.md`, which links to the PDF.
 
 ## Access
 

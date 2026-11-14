@@ -4,9 +4,10 @@
 
 # Álvaro Francisco Fleith
 
-Results-oriented Senior Software Engineer with extensive expertise in embedded systems, C++, Python, and Rust. Proven track record in designing scalable, high-performance applications and successfully leading complex, cross-platform projects. Skilled in collaborating with stakeholders, mentoring teams, and driving innovation through modern development practices. Passionate about tackling challenging problems, optimizing workflows, and delivering impactful solutions.
+I'm a software engineer based in Nashville, Tennessee, with 20 years of experience across AI agents, distributed systems, embedded software, and network infrastructure.
 
+At Amazon, I build AI agents that help network engineers triage incidents and evaluation tools that test agent behavior before release. Previously, I worked on network infrastructure for fulfillment centers, Fire TV’s native Rust service framework, and AWS Support’s case management APIs.
 
-[Linkedin profile](https://www.linkedin.com/in/alvarofleith)
+[LinkedIn](https://www.linkedin.com/in/alvarofleith) · [GitHub](https://github.com/fleith)
 
 [Download my resume](https://www.dropbox.com/scl/fi/bs72b8bwhzzdhl0hwecla/resume.pdf?rlkey=91iglicsmkzo5nnrns2ugqfgt&st=5usz0g7b&dl=0)
